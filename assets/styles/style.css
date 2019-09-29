@@ -1,0 +1,112 @@
+body {
+
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+h3 {
+    font-family: 'Sacramento', cursive;
+}
+
+h4 {
+    font-family: 'Sacramento', cursive;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+.container {
+    padding-top: 10%;
+}
+
+.nav-wrapper {
+    background-color: black;
+    padding: 100px;
+}
+
+h4 {
+text-align:center;    
+}
+
+img:hover {
+transform: scale(1.5);
+}
+
+
+.fa-github {
+    font-size: 50px;
+    margin-left: 40%;
+    color: black;
+
+}
+
+
+.fa-linkedin {
+    font-size: 50px;
+    margin-left: 5%;
+    color: #0077b5;
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.5);
+    }
+
+
+    .fa-github:hover {
+        transform: scale(1.5);
+        }
+
+
+.fa-envelope {
+    font-size: 50px;
+    margin-left: 5%;
+    color: black;
+}
+.fa-envelope:hover {
+    transform: scale(1.5);
+    }
+
+
+.footer {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+
+  .copyright {
+      margin-bottom: 50px;
+  }
+
+  #git-btn-1 {
+      margin-left: 890px;
+
+  }
+  
+  button {
+      background-color:white !important;
+      color:black!important;
+  }
+
+  button:hover {
+      background-color: black!important;
+      color:white!important;
+  }
+ @media screen and (max-width: 800px) {
+    .container {
+    padding-top:50%;
+    }
+   h3 {
+       margin-top: 2px;
+   }
+  }  
